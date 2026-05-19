@@ -130,3 +130,22 @@ Do not create additional program files.
 ## Submission
 
 Submit a link to your automatically generated Feedback PR to the Canvas assignment. 
+
+---
+
+## Running  Tests
+
+This assignment includes unit tests in `test_data_bill.py`. These tests run your full `data_bill.py` program using sample inputs and check that the printed output matches the expected bill.
+
+To run the tests, open a terminal in the project folder and enter:
+
+```
+python -m unittest test_data_bill.py
+```
+
+Or, press the play button in VS Code. 
+
+- You should see output showing how many tests passed or failed. If a test fails, read the failure message carefully. It will show which expected output was missing from your program’s results.
+- Before running the tests, make sure your file is named exactly `data_bill.py`.
+- Do not rename the program file, or the tests may not be able to find it.
+- The program output needs to match the expected wording, spacing, capitalization, and number formatting exactly, or the tests may fail even if the calculation is correct.
